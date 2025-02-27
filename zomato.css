@@ -1,0 +1,485 @@
+ *{
+    margin: 0;
+ }
+ body {
+    font-family: 'Helvetica', sans-serif;
+}
+ .main{
+    overflow: visible;
+    height: 100vh;
+    
+ }
+ .coverpage{
+    background-image: url("./images/coverimage.avif");
+    background-size: cover;
+    width: 100%;
+    height: 26.7rem;
+ }
+ .cover-nav{
+    height: 4.5rem;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+ }
+ 
+ .ancor-nav{
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    color: white;
+    margin: 0 1.5rem;
+    font-weight: 100;
+ }
+ .app{
+    font-size: 0.8rem;
+     margin:0 0.3rem;
+ }
+ .head-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+   
+ }
+ .heading{
+    width: 18rem;
+    height: 3.75rem;
+    margin-top: 2rem;
+    
+ }
+ .h1-cover{
+   text-align: center;
+   height: 3rem;
+   color: white;
+   padding-top: 2rem;
+   font-size: 2.2rem;
+   font-weight: 100;
+   letter-spacing: 0.09rem;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .input{
+   background-color: white;
+   height: 3.5rem;
+   width:49rem;
+   margin-left: 23.5rem;
+   margin-top: 1.5rem;
+   border-radius: 0.5rem;
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .locate{
+   color: red;
+   opacity: 0.5;
+   font-size: 1.4rem;
+   margin: 1rem 0 0 0.8rem ;
+ }
+ .loc-input{
+font-size: 1rem;
+border: 1px solid white;
+outline: none;
+text-decoration: none;
+margin-top: 1rem;
+ }
+ .input-div{
+   border: 1px solid white;
+ border-right: 1px solid grey;
+margin-left: 0.5rem;
+ }
+ .arrow{
+   margin-right: 0.8rem;
+   color: grey;
+ }
+ .search{
+   color: grey;
+   font-size: 1.2rem;
+   margin: 1.2rem 0 0 0.8rem;
+   outline: none;
+   border: 1px solid white;
+   opacity: 0.7;
+ }
+ .search-input{
+   color: grey;
+   font-size: 1rem;
+   width:25rem;
+   outline: none;
+   border: 1px solid white;
+   margin-left: 0.5rem;
+ }
+.cards3{
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding-top: 2.2rem;
+   justify-content:space-around;
+}
+.part2{
+   width: 70rem;
+   height: 80rem;
+   padding-left: 12.5rem;
+}
+.card{
+   height: 15rem;
+   border: 0.4px solid rgba(113, 113, 113,0.2);
+   border-radius: 1rem;
+   width: 22rem;
+   transition: 0.3s;
+
+  
+ }
+  .card h3{
+   opacity: 0.7;
+   padding-top: 0.5rem;
+
+ }
+ .card p,h3{
+   padding-left: 0.8rem;
+   
+ }
+ .card p{
+   color: gray;
+   padding-top: 0.3rem;
+ }
+ .card img{
+   width: 22rem;
+
+}
+.card:hover{
+   transition: 0.3s;
+   transform: scale(1.06);
+}
+
+.collections{
+   margin-top: 5rem;
+
+}
+.collections h1{
+   color: rgba(0,0,0,0.8);
+   padding-bottom:0.5rem ;
+   padding-left: 0.5rem;
+   font-weight: 200;
+   font-size: 2.5rem;
+
+}
+.collections p{
+   display: inline;
+   font-weight: 100;
+  
+   padding-left: 0.5rem;
+}
+.greyp{
+   color: rgba(0,0,0,0.6);
+   font-size: 1.2rem;
+
+
+}
+.redp{
+   color: rgba(255,0,0,0.5);
+   font-size: 1rem;
+   margin-left: 10rem;
+   
+}
+.redp i{
+   color: rgba(255,0,0,0.5);
+   display: inline;
+   margin-left: 0.5rem;
+
+}
+.img4{
+     height: 20rem;
+     width: 68rem;
+     margin-top: 2rem;
+}
+.localities h1{
+   color:rgba(0,0,0,0.7);
+font-weight:100;
+padding-top: 5rem;
+letter-spacing: 0.1rem;}
+.localities-cards{
+   margin-top: 2.5rem;
+}
+.local-card{
+   color: black;
+   border: 1px solid rgba(122, 122, 122,0.3);
+   border-radius: 0.5rem ;
+   width: 22.5rem;
+   height: 4.8rem;
+   display: inline-block;
+   margin: 0.7rem 0rem 0rem 0.5rem;
+   box-shadow: 0.2px 0.2px 0.2px rgba(244, 242, 242, 0.2);
+
+}
+.local-card:hover{
+   box-shadow: 3px 3px 3px rgba(244, 242, 242, 0.9);
+}
+.local-card h3,p{
+   
+   margin-top: 0.5rem;
+}
+.local-card h3{
+   font-weight: 100;
+   letter-spacing: 0.05rem;
+   margin-left: 0.2rem;
+}
+.local-card p{
+   color: grey;
+   font-weight: 100;
+   margin-left: 1rem;
+   margin-bottom: 1rem;
+   display: inline-block;
+}
+.local-card i{
+   margin-left: 15rem;
+   font-size: 0.7rem;
+   color: black;
+   opacity: 0.9;
+}
+.see-more{
+ text-align: center;  
+ margin-left: 2rem;
+ margin-top: 2rem;
+}
+.see-more-arrow{
+padding-left: 10rem;}
+.part3{
+   margin-top: 4rem;
+   width: 100%;
+   height: 30rem;
+   background-color: rgba(252, 235, 237, 0.35);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.mobile-img{
+  transform: scale(0.8);
+  border: 2px solid   rgba(252, 235, 237, 0.35);
+  border-radius: 4rem;
+  box-shadow: 5px 5px 5px rgba(252, 235, 237, 0.35);
+}
+.get-app{
+   margin-left: 3rem;
+}
+.get-app h1{
+   margin-top: 3.5rem;
+   font-size: 2.8rem;
+   font-weight: 300;
+   letter-spacing: 0.1rem;
+}
+.get-app p{
+   margin-top: 1.5rem;
+   color: rgba(0,0,0,0.7);
+   font-size: 1rem;
+   font-weight: 100;
+   line-height: 1.6rem;
+   letter-spacing: 0.02rem;
+}
+.content{
+   display: flex;
+   flex-wrap: wrap;
+   width: 56.25rem;
+   height: 28.5rem;
+   justify-content: center;
+   margin-right: 3rem;
+}
+.radio{
+   color: rgba(0,0,0,0.8);
+   font-size: 1rem;
+   width: 12rem;
+   margin-top: 2.5rem;
+   display: flex;
+   justify-content: space-between;
+}
+.email-input{
+   height: 2.7rem;
+   width: 18rem;
+   margin-top: 1.5rem;
+   font-size: 1.1rem;
+   border: 0.025rem solid rgba(175, 160, 160,0.4);
+   border-radius: 0.3rem;
+   outline: none;
+}
+.email-input::placeholder{
+   color: rgba(166, 166, 166,0.7);
+   padding-left: 1rem;   
+}
+.share-btn{
+   height: 3rem;
+   width: 10rem;
+   color: white;
+   border: 0.1rem solid rgba(226, 55, 68,0.9);
+   background-color: rgba(226, 55, 68,0.9);
+   border-radius: 0.4rem;
+   font-size: 1rem;
+   font-weight: 100;
+   letter-spacing: 0.4px;
+}
+.download{
+   opacity: 0.4;
+}
+.badges{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 1rem;
+   width: 20rem;
+   justify-content: space-between;
+} 
+.badge1,.badge2{
+   height: 2.5rem;
+   width: 9.2rem;
+   background-color: rgb(10, 37, 84); 
+   border-radius: 0.4rem;
+}
+.badges p{
+   /* display: inline-block; */
+   margin-top: 0rem;
+   font-size: 0.6rem;
+}
+.p-h{
+   position: absolute;
+   margin: 0rem 0rem 0rem 2.5rem;
+}
+.badges h2{
+   position: relative;
+   font-size: 1rem;
+   line-height: 0.4rem;
+   
+}
+.icon{
+   position: absolute;
+   display: inline-block;
+   font-size: 1.5rem;
+   text-align: center;
+   padding: 0.6rem 0 0.2rem 0.5rem ;
+   color: white;
+}
+.badges p,h2{
+   color: white;
+}
+.explore{
+   width: 70rem;
+   height: 27rem;
+   padding-left: 12.5rem;
+   margin-top: 2rem;
+}
+.explore h1{
+   font-weight: 300;
+   opacity: 0.7;
+
+}
+.cards-4{
+margin-top: 1rem;
+color: rgba(0,0,0,0.7);
+}
+.cards-4 div{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   border: 2px solid rgba(192, 188, 188, 0.2);
+   height: 4rem ;
+   border-radius: 0.5rem;
+   margin-top: 1.3rem;
+}
+.cards-4 i{
+   margin-right: 1.2rem;
+}
+.cards-4 h3{
+   font-weight: 500;
+
+}
+.zomato-end{
+   width: 100%;
+   height: 30rem;
+   background-color: rgba(238, 238, 241, 0.3);
+}
+.end{
+   width: 70rem;
+   /* background-color: rgba(218, 218, 223,0.2); */
+   height: 30rem;
+   margin-left: 12rem;
+   margin-top: 3rem;
+   position: absolute;
+}
+.end-nav{
+   display: flex;
+   justify-content: space-between;
+}
+.end-zomato-img{
+   height: 2rem;
+   width: 9rem;
+}
+.india-btn{
+   height: 2.4rem;
+   width: 6.5rem;
+   background-color: rgba(218, 218, 223,0.2);
+   border: 1px solid rgba(142, 140, 140, 0.3);
+   border-radius: 0.3rem;
+   font-size: 1rem;
+   
+}
+.india-btn p{
+   display: inline-block;
+   font-size: 1.3rem;
+   }
+   .india-btn i{
+      margin-left: 0.2rem;
+   }
+.india-img{
+   width: 1.3rem;
+   height: 1rem;
+   margin-right: 0.2rem;
+} 
+.english-btn{
+   height: 2.4rem;
+   width: 6.8rem;
+   font-size: 1rem;
+   background-color: rgba(218, 218, 223,0.2);
+   border: 1px solid rgba(142, 140, 140, 0.3);
+   border-radius: 0.3rem;
+   margin-left: 1rem;
+}
+.end-content{
+   margin-top: 3rem;
+   display: flex;
+   justify-content: space-between;
+}
+.end-content h4{
+   letter-spacing: 0.1rem;
+   font-size: 0.8rem;
+}
+.end-content p{
+   line-height: 1.7rem;
+   font-weight: 100;
+   color: rgb(167, 167, 167);
+}
+.social-media{
+   font-size: 1.2rem;
+   margin-top: 1.5rem;
+   display: flex;
+   justify-content: space-between;
+}
+.end-badges{
+   width: 9rem;
+   display:inline-block;
+   flex-wrap: nowrap;
+}
+.end-badge-1,.end-badge-2{
+   width: 9rem;
+   margin-top: 1rem;
+   padding-bottom: 0.1rem;
+}
+.end-hz-line{
+   width: 70rem;
+   margin-top: 3rem;
+   opacity: 0.5;
+}
+.tc-p{
+   margin-top: 2rem;
+   font-weight: 100;
+   color: rgb(171, 169, 169);
+   font-size: 1rem;
+   line-height: 1.3rem;
+}
